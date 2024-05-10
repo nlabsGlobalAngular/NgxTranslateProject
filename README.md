@@ -50,6 +50,7 @@ Rusça Dil Dosyası (ru.json)
 
 Uygulama Konfigürasyonu
 Ngx-translate'in HTTP yükleyicisini ve modülleri konfigüre etmek için app.config.ts dosyasını kullanın.
+```typescript
 import { ApplicationConfig, importProvidersFrom } from '@angular/core';
 import { provideRouter } from '@angular/router;
 import { HttpClient, HttpClientModule } from '@angular/common/http;
@@ -75,9 +76,10 @@ export const appConfig: ApplicationConfig = {
     ),
   ],
 };
-
+```
 AppComponent Kodları
 Angular bileşeni app.component.ts, Ngx-translate'i kullanarak çoklu dil desteğini nasıl sağlayacağını gösterir.
+```typescript
 import { Component, inject, OnInit } from '@angular/core;
 import { RouterOutlet } from '@angular/router;
 import { TranslateModule, TranslateService } from '@ngx-translate/core;
@@ -104,9 +106,10 @@ export class AppComponent implements OnInit {
     localStorage.setItem('language', lang);
   }
 }
-
+```
 app.component.html Kodları
 Bileşen HTML şablonunun çeviri kullanımını ve dil değiştirme özelliğini gösteren kodlar.
+```html
 <div>
   <h1>{{ 'welcome' | translate }}</h1>
   <div>
@@ -116,3 +119,4 @@ Bileşen HTML şablonunun çeviri kullanımını ve dil değiştirme özelliğin
   </div>
   <router-outlet></router-outlet>
 </div>
+```
