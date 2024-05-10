@@ -25,6 +25,7 @@ Türkçe Dil Dosyası (tr.json)
 ```
 
 İngilizce Dil Dosyası (en.json)
+```json
 {
   "language": "English",
   "tr": "Turkish",
@@ -33,8 +34,10 @@ Türkçe Dil Dosyası (tr.json)
   "title": "Title",
   "welcome": "Welcome"
 }
+```
 
 Rusça Dil Dosyası (ru.json)
+```json
 {
   "language": "Русский",
   "tr": "турецкий",
@@ -43,6 +46,7 @@ Rusça Dil Dosyası (ru.json)
   "title": "Заголовок",
   "welcome": "Добро пожаловать"
 }
+```
 
 Uygulama Konfigürasyonu
 Ngx-translate'in HTTP yükleyicisini ve modülleri konfigüre etmek için app.config.ts dosyasını kullanın.
