@@ -13,6 +13,7 @@ Dil Dosyaları
 Dil dosyalarını assets/i18n klasörüne yerleştirin.
 
 Türkçe Dil Dosyası (tr.json)
+```json
 {
   "language": "Türkçe",
   "tr": "Türkçe",
@@ -21,6 +22,7 @@ Türkçe Dil Dosyası (tr.json)
   "title": "Başlık",
   "welcome": "Hoş geldiniz"
 }
+```
 
 İngilizce Dil Dosyası (en.json)
 {
