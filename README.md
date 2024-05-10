@@ -4,7 +4,7 @@ Bu belge, Ngx Translate paketini kullanarak çok dilli bir Angular uygulaması n
 
 ## Kurulum
 
-Ngx-translate çekirdek ve HTTP yükleyiciyi kurmak için aşağıdaki komutu kullanın:
+### Ngx-translate çekirdek ve HTTP yükleyiciyi kurmak için aşağıdaki komutu kullanın:
 
 ```bash
 npm i @ngx-translate/core @ngx-translate/http-loader --save
