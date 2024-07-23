@@ -9,14 +9,12 @@ Bu belge, Ngx Translate paketini kullanarak çok dilli bir Angular uygulaması n
 ```bash
 npm i @ngx-translate/core @ngx-translate/http-loader --save
 ```
-Dil Dosyaları
-Dil dosyaları public/i18n klasörü içerisindedir..
-
+### Dil dosyaları public/i18n klasörü içerisindedir..
 
 ## Gerekli tüm kodlar dosyalarda mevcuttur
-### -- kodlama yapılan dosyalar
-### -- src/
-### -- app.config.ts
-### -- app.component.ts
-### -- app.component.html
+### kodlama yapılan dosyalar
+### src/
+### app.config.ts
+### app.component.ts
+### app.component.html
 
