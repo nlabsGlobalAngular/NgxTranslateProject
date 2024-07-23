@@ -14,9 +14,9 @@ Dil dosyaları public/i18n klasörü içerisindedir..
 
 
 ## Gerekli tüm kodlar dosyalarda mevcuttur
--- kodlama yapılan dosyalar
--- src/
--- app.config.ts
--- app.component.ts
--- app.component.html
+### -- kodlama yapılan dosyalar
+### -- src/
+### -- app.config.ts
+### -- app.component.ts
+### -- app.component.html
 
