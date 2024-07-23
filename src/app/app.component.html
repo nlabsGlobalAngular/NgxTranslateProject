@@ -1,0 +1,11 @@
+<div>
+  <h1>{{ 'welcome' | translate }}</h1>
+  <div>
+    @for (language of languages; track language) {
+      <button (click)="changeLanguage(language)">
+        {{ language | translate }}
+      </button>
+    }
+  </div>
+  <router-outlet></router-outlet>
+</div>
